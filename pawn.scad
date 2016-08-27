@@ -1,0 +1,16 @@
+union(){
+    //pawm
+union(){
+translate([0,0,100])
+sphere(r=20);
+cylinder(h=100,r1=18,r2=10);
+cylinder(h=15,r1=35,r2=25);
+    translate([0,0,15])
+    cylinder(h=5,r1=25,r2=25);
+}
+ translate([0,0,80])
+intersection(){
+cylinder(h=20,r1=25,r2=0);
+translate([0,0,7])
+mirror([0,0,1])
+cylinder(h=20,r1=25,r2=0);}}
